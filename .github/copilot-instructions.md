@@ -5,7 +5,7 @@
 At the start of every session, execute the following to establish current date, time, and locale awareness:
 
 ```bash
-date "+%Y-%m-%d %H:%M:%S %Z (Locale: %z)"
+date "+%Y-%m-%d %H:%M:%S %Z %z"
 ```
 
 This ensures accurate date/time context throughout the session for all responses and interactions.
